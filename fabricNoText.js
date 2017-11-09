@@ -7,7 +7,7 @@ if (typeof exports !== 'undefined') {
 
 if (typeof document !== 'undefined' && typeof window !== 'undefined') {
   fabric.document = document;
-  fabric.window = window;
+  fabric.window = window; 
 }
 else {
   // assume we're running under node.js when document/window are not present
